@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="Home.html">Home</a> | <a href="About.html">About</a> |
+      <a href="Project.html">Project</a> |
+      <a href="Contact.html">Contact</a>
+    </nav>
+    <hr />
+
+    <h2>Informasi Kontak</h2>
+    <p>
+      Jika Anda ingin berdiskusi atau bekerja sama, silakan hubungi saya melalui
+      form berikut.<br />Anda juga dapat mengirim email ke
+      <a href="mailto:keisyalutfhiyah@student.upi.edu">
+        keisyalutfhiyah2277@student.upi.edu
+      </a>
+    </p>
+
+    <h2>Form Pesan</h2>
+
+    <form>
+      <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+          <th colspan="2">Form Data Kontak</th>
+        </tr>
+        <tr>
+          <td align="right"><strong>Nama Lengkap:</strong></td>
+          <td class="input"><input type="text" name="nama" required /></td>
+        </tr>
+        <tr>
+          <td align="right"><strong>Email:</strong></td>
+          <td class="input"><input type="email" name="email" required /></td>
+        </tr>
+        <tr>
+          <td align="right"><strong>Nomor Telepon:</strong></td>
+          <td class="input">
+            <input type="tel" name="nomor_telepon" required />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><strong>Jenis Kelamin:</strong></td>
+          <td class="input">
+            <input
+              type="radio"
+              name="jenis_kelamin"
+              value="Laki-laki"
+              required
+            />
+            Laki-laki
+            <input type="radio" name="jenis_kelamin" value="Perempuan" />
+            Perempuan
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><strong>Tanggal Lahir:</strong></td>
+          <td class="input">
+            <input type="date" name="tanggal_lahir" required />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><strong>Topik Pesan:</strong></td>
+          <td>
+            <select name="topik_pesan" required>
+              <option value="Diskusi">Diskusi</option>
+              <option value="Sponsor">Sponsor</option>
+              <option value="Endorse">Endorse</option>
+              <option value="Collaboration">Collaboration</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><strong>Jenis Pesan:</strong></td>
+          <td class="input">
+            <input
+              type="radio"
+              name="jenis_pesan"
+              value="Pertanyaan"
+              required
+            />
+            Pertanyaan
+            <input type="radio" name="jenis_pesan" value="Saran" />
+            Saran
+            <input type="radio" name="jenis_pesan" value="Lainnya" />
+            Lainnya
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><strong>Pesan:</strong></td>
+          <td class="textarea">
+            <textarea name="pesan" rows="5" cols="33" required></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><strong>Salinan Pesan:</strong></td>
+          <td class="input">
+            <input
+              type="checkbox"
+              name="salinan_pesan"
+              value="Kirim salinan pesan ke email saya"
+            />Kirim salinan pesan ke email saya
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <input type="submit" value="Kirim Pesan" />
+            <input type="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <hr />
+    <a href="Home.html">Kembali ke Home</a>
+    <p>© 2026 Keisya Zakiyah Luthfiyah</p>
+  </body>
+</html>
